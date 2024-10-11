@@ -1,1 +1,71 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Peter Mahon's personal page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="peter, mahon, software, engineering" />
+  <meta name="description" content="Peter Mahon's personal webpage" />
+  <meta name="author" content="Peter Mahon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="https://www.pdmahon1.github.io/" target="_blank">
+</head>
+
+<body class="flex-container">
+
+  <!--<div class="header">
+    <div class="header-text">
+      &nbsp;
+    </div>
+  </div>-->
+
+  <div class="body-spacer-side"></div>
+
+  <div class="body-content">
+    <div class="header">
+      peter mahon.
+    </div>
+    <span class="logos">
+      <a href="" target="_blank">
+        <img class="logo" src="images/logo_github.png">
+        <span>Github</span>
+      </a>
+      <a href="" target="_blank">
+        <img class="logo" src="images/logo_linkedin.png">
+        <span>LinkedIn</span>
+      </a>
+    </span>
+  </div>
+
+  <div class="body-spacer-side"></div>
+
+
+  <script>
+    function setup() {
+      //outputHeaderPS1();
+      document.getElementsByClassName("header")[0].style.display = "none";
+    }
+
+    function outputHeaderPS1() {
+      //$> echo "Peter Mahon";
+      var headerText = document.getElementsByClassName("header-text")[0];
+      const date = new Date();
+      var month = date.getMonth();
+      var day = date.getDate();
+      //pad with leading 0 if needed
+      if (month < 10) month = "0" + month;
+      if (day < 10) month = "0" + month;
+      var dateOutput = `${date.getFullYear()}-${month}-${day}`;
+      headerText.innerHTML = dateOutput + " ~ > cat \"Peter Mahon.out\"";
+
+      //hide the banner for now
+
+    }
+
+    window.onload = setup();
+
+  </script>
+</body>
+
+</html>
