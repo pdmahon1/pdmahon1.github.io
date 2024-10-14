@@ -2,70 +2,137 @@
 <html>
 
 <head>
-  <title>Peter Mahon's personal page</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta charset="UTF-8" />
-  <meta name="keywords" content="peter, mahon, software, engineering" />
-  <meta name="description" content="Peter Mahon's personal webpage" />
-  <meta name="author" content="Peter Mahon" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="https://www.pdmahon1.github.io/" target="_blank">
+	<title>Peter Mahon's personal page</title>
+	<link rel="stylesheet" href="styles.css" />
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="peter, mahon, software, engineering" />
+	<meta name="description" content="Peter Mahon's personal webpage" />
+	<meta name="author" content="Peter Mahon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="https://www.pdmahon1.github.io/" target="_blank">
+
+	<script>
+		window.onload = () => {
+			//set the current year in the footer
+			const date = new Date();
+			document.getElementById("footer-year").innerHTML = date.getFullYear();
+		};
+	</script>
 </head>
+<body>
+<div class="body-wrapper">
 
-<body class="flex-container">
+	<div class="column-spacer" id="left-column-spacer"></div>
+	
+	<div class="content-column">
+		<!-- header-container -->
+		<div class="header-container">
+			<!-- pete's name -->
+			<div class="header-text">
+				peter mahon.
+			</div>
+			
+			<!--logos-->
+			<div class="all-logos-container">
+				<div class="logo-container">
+					<img src="http://127.0.0.1:5500/images/logo_github.png"
+						alt="The Github Logo consisting of a transparent Github mascot silhoutted by a black circle" 						
+						class="logo-github" />
+						Github
+				</div>
+				<div class="logo-container">
+					<img src="http://127.0.0.1:5500/images/logo_linkedin.png" 
+						alt="The LinkedIn logo consisting of a blue square with rounded edges, and the letters i and n are transparent"
+						class="logo-linkedin" />
+					Linkedin
+				</div>
+			</div> <!-- end logos -->
+		</div><!-- end header-container -->
 
-  <!--<div class="header">
-    <div class="header-text">
-      &nbsp;
-    </div>
-  </div>-->
+		<div class="main<br />-content">
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+			main<br />
+		</div>
 
-  <div class="body-spacer-side"></div>
+		<div class="footer">
+			<footer>
+				<p>
+					Hi! Thank you for reading to the bottom of my page. <br />
+					I know I'm not a great UI designer, but I sure do enjoy working across the full stack anyway. <br />
+					<br />
+					&copy;<span id="footer-year"></span> Peter Mahon 
+				</p>
+			</footer>
+		</div>
+	</div><!-- end content-column -->
+	
+	<div class="column-spacer" id="right-column-spacer"></div>
 
-  <div class="body-content">
-    <div class="header">
-      peter mahon.
-    </div>
-    <span class="logos">
-      <a href="" target="_blank">
-        <img class="logo" src="images/logo_github.png">
-        <span>Github</span>
-      </a>
-      <a href="" target="_blank">
-        <img class="logo" src="images/logo_linkedin.png">
-        <span>LinkedIn</span>
-      </a>
-    </span>
-  </div>
-
-  <div class="body-spacer-side"></div>
-
-
-  <script>
-    function setup() {
-      //outputHeaderPS1();
-      document.getElementsByClassName("header")[0].style.display = "none";
-    }
-
-    function outputHeaderPS1() {
-      //$> echo "Peter Mahon";
-      var headerText = document.getElementsByClassName("header-text")[0];
-      const date = new Date();
-      var month = date.getMonth();
-      var day = date.getDate();
-      //pad with leading 0 if needed
-      if (month < 10) month = "0" + month;
-      if (day < 10) month = "0" + month;
-      var dateOutput = `${date.getFullYear()}-${month}-${day}`;
-      headerText.innerHTML = dateOutput + " ~ > cat \"Peter Mahon.out\"";
-
-      //hide the banner for now
-
-    }
-
-    window.onload = setup();
-
-  </script>
+</div> <!-- end body-wrapper -->
 </body>
-
 </html>
