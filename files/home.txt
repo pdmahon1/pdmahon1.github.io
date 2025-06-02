@@ -1,0 +1,4 @@
+<p>
+    Hi! I'm Peter Mahon -- a full stack developer, professional instructor, and Marine Corps veteran. 
+    I have 6 years of experience in delivering microservices and client-facing applications on Linux and Windows platforms.
+</p>
