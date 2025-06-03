@@ -16,6 +16,28 @@
 			//set the current year in the footer
 			const date = new Date();
 			document.getElementById("footer-year").innerHTML = date.getFullYear();
+
+			// let response = fetch('https://raw.githubusercontent.com/pdmahon1/pdmahon1.github.io/main/files/home.txt', {
+			let sha = fetch('https://api.github.com/repos/pdmahon1/pdmahon1.github.io/contents/files/home.txt', {				
+					method: 'GET',
+					// headers: {
+					// 	'Content-Type': 'text/plain',
+					// 	'Access-Control-Allow-Origin': "https://github.com"
+					// }
+				})
+				.then((response) => response.json())
+				.then((response) => console.log(response));
+
+			sha = sha["sha"];
+			console.log("sha: " + sha);
+				// .then(text => console.log("fetch output: " + text));
+
+			console.log("response: " + sha);
+			// fetch('https://github.com/pdmahon1/pdmahon1.github.io/blob/main/files/home.txt')
+			// 	.then((text) => {
+			// 		console.log("we fetched!")
+			// 		document.getElementById("content-home").textContent = text;
+			// 	});
 		};
 	</script>
 </head>
@@ -54,17 +76,58 @@
 		<!-- header-container -->
 
 		<div class="main-content">
-			<div class="links">				
-				<!-- <ul class="ul-links">
-					<li><a href=""></a></li>
-				</ul> -->
-				xxx
-			</div>
-			<div>
-				<p>
-					Hi! I'm Peter Mahon -- a full stack developer, professional instructor, and Marine Corps veteran. 
-					I have 6 years of experience in delivering microservices and client-facing applications on Linux and Windows platforms.
-				</p>
+			
+			<div class="links" id="links">	
+				<div>
+					<a href="javascript:void(0)" id="link-home" onclick="showHome()" target="_self">
+						Home
+					</a>
+				</div> <!-- end links -->
+
+				<div>
+					<a href="https://github.com/pdmahon1/" target="_blank">
+						Github&#10532;
+					</a>
+				</div>
+				
+				<div>
+					<a href="https://linkedin.com/in/pdmahon1" target="_blank">
+						LinkedIn&#10532;
+					</a>
+				</div>
+
+				<div>
+					<a href="javascript:void(0)" id="link-projects" onclick="showProjects()" target="_self">
+						Projects
+					</a>
+				</div>
+
+				<div>
+					<a href="javascript:void(0)" id="link-work-history" onclick="showWorkHistory()" target="_self">
+						Work History
+					</a>
+				</div>
+			</div> <!-- end div.links -->
+
+			<div id="content">
+				<div class="dynamic-content" id="content-home">
+					<!-- <p>
+						Hi! I'm Peter Mahon -- a full stack developer, professional instructor, and Marine Corps veteran. 
+						I have 6 years of experience in delivering microservices and client-facing applications on Linux and Windows platforms.
+					</p> -->
+				</div>
+
+				<div class="dynamic-content" id="content-projects" style="display:none;visibility:hidden;">
+					<p>
+						projects
+					</p>
+				</div>
+
+				<div class="dynamic-content" id="content-work-history" style="display:none;visibility:hidden;">
+					<p>
+						work history
+					</p>
+				</div>
 			</div>
 		</div>
 		<!-- end main content -->
@@ -84,5 +147,45 @@
 	<div class="column-spacer" id="right-column-spacer"></div>
 
 </div> <!-- end body-wrapper -->
+<script>
+// document.getElementById("link-home").addEventListener("click", showHome);
+// document.getElementById("link-projects").addEventListener("click", showProjects);
+// document.getElementById("link-work-history").addEventListener("click", showWorkHistory);
+
+function showHome(){
+	console.log("showHome clicked");
+	hideAllExcept("content-home");
+}
+function showProjects(){
+	console.log("showProjects clicked");
+	hideAllExcept("content-projects");
+}
+function showWorkHistory(){
+	console.log("showWorkHistory clicked");
+	hideAllExcept("content-work-history");
+}
+
+function hideAllExcept(id){
+	var contents = document.getElementById("content");
+	var contentDivs = document.getElementsByClassName("dynamic-content");
+	console.log("contentDivs: " + contentDivs.length);
+	for(var i = 0; i < contentDivs.length; i++){
+		console.log("contentDiv selected: " + contentDivs[i].elementId);
+		contentDivs[i].visibility = "hidden";
+		contentDivs[i].style.display = "none";
+	}
+	revealElement(id);
+}
+
+function revealElement(elementId){
+	console.log("element id = " + elementId);
+	var element = document.getElementById(elementId);
+	element.style.visibility = "visible";
+	element.style.display = "block";
+	console.log(elementId + " innerHTML: " + element.innerHTML);
+	element.innerHTML = element.innerHTML;
+}
+
+</script>
 </body>
 </html>

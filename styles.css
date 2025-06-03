@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-}
-
-body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -16,7 +13,7 @@ body {
 
 .column-spacer {
     flex: 0 10 10%;
-    /* background-color: rgba(100, 0, 0, 0.2); */
+    background-color: #700070;
 }
 
 #left-column-spacer {
@@ -27,10 +24,6 @@ body {
     order: 3;
 }
 
-#right-column-spacer, #left-column-spacer {
-    background-color: #700070;
-}
-
 .content-column {
     flex: 1;
     order: 2;
@@ -39,21 +32,21 @@ body {
     flex-direction: column;
 }
 
-.content-column  div {
+/* .content-column div {
     padding: 0 5px;
-}
+} */
 /* #endregion initial */
 
 
 /* #region header */
 .header-container {
-    padding: 5px 0;
+    padding: 5px;
     display: flex;
     justify-items: start;
     align-content: end;
     position: sticky;
     top: 0px;
-    min-height: 2em;
+    min-height: 150px;
     /* gap: 20px; */
     
     /* justify-content: space-between; */
@@ -109,7 +102,7 @@ body {
 
 .all-logos-container > li.item-linkedin {
     list-style-image: url('images/logo_linkedin.png');
-} */
+}
 
 .all-logos-container .logo-github {
     background-image:url("./images/logo_github.png");
@@ -137,30 +130,52 @@ body {
     /* min-height: 21px;
     min-width:  21px;
     width: 1em;
-    height: auto;*/
+    height: auto;
     max-height: 1em;
     margin-left: 4px;
-}
+}*/
 /* #endregion header */
 
 
 /* #region main-content */
 .main-content {
     padding: 0 0 10px 0;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     flex-basis: 100%;
 }
 
 div.links {
     display: flex;
     background-color: #DDDDDD;
+    margin-bottom: 5px;
 }
 
-div.links span {
-    min-width: 10%;
-    background-color: orange;
+div.links div {
+    min-width: 1px;
+    padding: 5px 10px;
 }
 
+div.links div:hover {
+    background-color: #AAAAAA;
+}
+
+div.links div a {
+    text-decoration:none;
+     color: #000000;
+}
+
+img.new-window {
+    width: 0.25em;
+    height: auto;
+}
+
+.body-content{
+    padding-top: 5px;
+}
+
+.dynamic-content{
+    padding: 0 10px;
+}
 /* #endregion main-content */
 
 
