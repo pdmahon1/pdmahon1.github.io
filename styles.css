@@ -170,8 +170,8 @@ div.links div:hover {
 }
 
 div.links div a {
-    text-decoration:none;
-     color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 img.new-window {
@@ -185,6 +185,37 @@ img.new-window {
 
 .dynamic-content{
     padding: 0 10px;
+}
+
+div.project {
+    padding-bottom: 1em;
+    transition: background-image 1s;
+    transition-delay: 1s;
+}
+
+div.project:hover {
+    background-image: linear-gradient(to right, #FFF, #FFF, #DDDDDD);
+    border: 1px #DDDDDD solid
+}
+
+.project-title a {
+    text-decoration: none;
+}
+
+.project-title a:hover {
+    text-decoration-line: underline;
+}
+
+span.status-complete {
+    color: #008000;
+}
+
+span.status-in-progress {
+    color: #977b00;
+}
+
+ul {
+    list-style-position: inside;
 }
 /* #endregion main-content */
 

@@ -1,6 +1,11 @@
+<h1>Personal Projects</h1>
 <div class="project">
     <div class="project-title">
-        <h2><a href="https://github.com/pdmahon1/pc-insights-bot">PC Insights Bot</a><h2>
+        <h2>
+            <a href="https://github.com/pdmahon1/pc-insights-bot" target="_blank">
+                PC Insights Bot &#10532;
+            </a>
+        <h2>
         Status: <span class="status-in-progress">In Progress</span>
     </div>
     <div>
@@ -12,7 +17,11 @@
 
 <div class="project">
     <div class="project-title">
-        <h2><a href="https://github.com/pdmahon1/pdmahon1.github.io">This webpage!</a><h2>
+        <h2>
+            <a href="https://github.com/pdmahon1/pdmahon1.github.io" target="_blank">
+                This Webpage &#10532;
+            </a>
+        <h2>
         Status: <span class="status-in-progress">In Progress</span>
     </div>
     <div>
@@ -30,15 +39,39 @@
     
 <div class="project">
     <div class="project-title">
-        <h2><a href="https://github.com/pdmahon1/pc-insights-bot">Scripts for yt-dlp</a><h2>
-        Status: <span class="status-complete">Complete</span>
+        <h2>
+            <a href="https://github.com/pdmahon1/yt-dlp-scripts" target="_blank">
+                Scripts for yt-dlp
+            </a>
+        <h2>
+        Status: <span class="status-complete">Complete</span> (Ongoing Maintenance)
     </div>
     <div>
-        A reddit bot that reads submission titles, determines what the item is, 
-        and attempts to comment on the submission so that potential shoppers can make informed 
-        purchasing decisions.
+        I claim I have a NAS; it's more like a digital hoarding "problem" that I make conveniently accessible to my devices.
+        I <em>would</em> use these scripts to download and archive video files for long term use if the legality of it wasn't so questionable. 
+        But hey! At least others can use them as a great starting point.
     </div>    
 </div>
 
-PC Insights Bot
-Status: In Progress
+<h1>Examples in the Wild</h1>
+<div class="project">
+    <div class="project-title">
+        <h2>
+            <a href="https://www.108atvclub.ca/" target="_blank">
+                108 ATV Club &#10532;
+            </a>
+        <h2>
+        Status: <span class="status-complete">Complete</span> (Ongoing Maintenance)
+    </div>
+    <div>
+        The owner of the ATV club wanted a website.
+        His requirements were simple:
+        <ul>
+            <li>He wanted a simple design</li>
+            <li>He wanted full access and full control of the website, so it had to be easy for him to maintain.</li>
+        </ul>
+
+        <p>I create this WordPress website for Mr. Mark Ready over the course of a week after my kid went to bed. That includes a night of cleaning up the logo with amateur GIMP skills. Since then, Mr. Ready has updated the site and added links of his own.</p>
+        <p>I know the site is super basic, but that's what he wanted. And he was fully aware that I had never used 
+    </div>    
+</div>

@@ -92,36 +92,6 @@
 </div> <!-- end body-wrapper -->
 
 <script>	
-	// function showHome(){
-	// 	hideAllExcept("content-home");
-	// }
-	
-	// function showProjects(){
-	// 	hideAllExcept("content-projects");
-	// }
-
-	// function showWorkExperience(){
-	// 	hideAllExcept("content-work-experience");
-	// }
-
-	// function hideAllExcept(id){
-	// 	var contents = document.getElementById("content");
-	// 	var contentDivs = document.getElementsByClassName("dynamic-content");
-		
-	// 	for(var i = 0; i < contentDivs.length; i++){
-	// 		contentDivs[i].visibility = "hidden";
-	// 		contentDivs[i].style.display = "none";
-	// 	}
-	// 	revealElement(id);
-	// }
-
-	// function revealElement(elementId){
-	// 	var element = document.getElementById(elementId);
-	// 	element.style.visibility = "visible";
-	// 	element.style.display = "block";
-	// 	element.innerHTML = element.innerHTML;
-	// }
-
 	function outputHome(){
 		updateContent("home");
 	}
@@ -142,6 +112,7 @@
 	async function updateContent(contentName){
 		try {
 			const url = urlFactory(contentName);
+console.log("Url chosen: " + url);
 			const response = await fetch(url);
 			if (!response.ok) {
 				throw new Error(`Could not retrieve Home data.`);
