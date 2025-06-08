@@ -194,8 +194,16 @@ div.project {
 }
 
 div.project:hover {
-    background-image: linear-gradient(to right, #FFF, #FFF, #DDDDDD);
+    background-image: linear-gradient(to right, #FFFFFF, #F5F5F5, #F5F5F5, #DDDDDD);
     border: 1px #DDDDDD solid
+}
+
+.section-spacer {
+    padding-top: 2em;
+}
+
+.project-spacer {
+    padding-top: 1em;
 }
 
 .project-title a {
@@ -217,8 +225,18 @@ span.status-in-progress {
 ul {
     list-style-position: inside;
 }
-/* #endregion main-content */
 
+.project ul
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    padding: 1em 0 0 0;
+}
+
+/* #endregion main-content */
 
 /* #region footer */
 .footer {
