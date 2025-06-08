@@ -2,10 +2,15 @@
 
 Hi! 
 
-Welcome to my absolutely simple webpage. Admittedly, I got tired of writing resumes and needed a break.
+Welcome to my absolutely simple webpage. Admittedly, I grew tired of filling out applications to hundreds of jobs on my free time and decided to build a webpage instead.
 
-I figure what better way to showcase my work and my interests than to write a website.
+Given the restrictions of publishing through Github.io, I decidede to mix things up a bit and create a single page application (SPA) using pure JavaScript and CSS styling. 
 
-The layout consists of pure HTML and CSS, with an emphasis on Flexbox for responsive layouts. 
+- No libraries. 
 
-JavaScript is used solely for the copyright year in the footer.
+- No build tools. 
+
+- Just the basics.
+
+
+Also, building this page makes me realize I need to finish learning from the Odin Project. Also, I might pursue the Google UI/UX course on Coursera because this page is **basic** and could use some pizzazz.

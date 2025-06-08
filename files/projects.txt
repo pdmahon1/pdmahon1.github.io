@@ -1,1 +1,44 @@
-<p>PROJECTS</p>
+<div class="project">
+    <div class="project-title">
+        <h2><a href="https://github.com/pdmahon1/pc-insights-bot">PC Insights Bot</a><h2>
+        Status: <span class="status-in-progress">In Progress</span>
+    </div>
+    <div>
+        A reddit bot that reads submission titles, determines what the item is, 
+        and attempts to comment on the submission so that potential shoppers can make informed 
+        purchasing decisions.
+    </div>
+</div>
+
+<div class="project">
+    <div class="project-title">
+        <h2><a href="https://github.com/pdmahon1/pdmahon1.github.io">This webpage!</a><h2>
+        Status: <span class="status-in-progress">In Progress</span>
+    </div>
+    <div>
+        <p>
+            I got tired of writing job applications all the time, so I made this for fun. 
+            This is a single page application (SPA) that uses pure JavaScript and CSS.
+            <ul>
+                <li>No libraries.</li>
+                <li>No build tools.</li>
+                <li>Just the basics.</li>
+            </ul>
+        </p>
+    </div>
+</div>
+    
+<div class="project">
+    <div class="project-title">
+        <h2><a href="https://github.com/pdmahon1/pc-insights-bot">Scripts for yt-dlp</a><h2>
+        Status: <span class="status-complete">Complete</span>
+    </div>
+    <div>
+        A reddit bot that reads submission titles, determines what the item is, 
+        and attempts to comment on the submission so that potential shoppers can make informed 
+        purchasing decisions.
+    </div>    
+</div>
+
+PC Insights Bot
+Status: In Progress
