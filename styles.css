@@ -194,8 +194,9 @@ div.project {
 }
 
 div.project:hover {
-    background-image: linear-gradient(to right, #FFFFFF, #F5F5F5, #F5F5F5, #DDDDDD);
-    border: 1px #DDDDDD solid
+    background-image: linear-gradient(to right, #F5F5F5, #F5F5F5, #FFFFFF, #FFFFFF, #F5F5F5, #DDDDDD);
+    /* border-top: 1px #DDDDDD solid;
+    border-bottom: 1px #DDDDDD solid; */
 }
 
 .section-spacer {
