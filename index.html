@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<title>Peter Mahon's personal page</title>
@@ -29,7 +29,9 @@
 			<div class="header-title">
 				<img src="https://media.licdn.com/dms/image/v2/D4E03AQEcei9Jcz4lLQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1704831723043?e=1754524800&v=beta&t=8gG67vL-3dHDQSsHBihCYviiYnqmMUTl4K-HSwVngHM" 
 					 alt="My LinkedIn Profile Picture" 
-					 id="profile-picture" />
+					 id="profile-picture" 
+					 width=""
+					 height="" />
 				<p>
 					Peter Mahon
 				</p>
@@ -112,7 +114,6 @@
 	async function updateContent(contentName){
 		try {
 			const url = urlFactory(contentName);
-console.log("Url chosen: " + url);
 			const response = await fetch(url);
 			if (!response.ok) {
 				throw new Error(`Could not retrieve Home data.`);
