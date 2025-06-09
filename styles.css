@@ -56,7 +56,7 @@ body > * {
     align-content: end;
     position: sticky;
     top: 0px;
-    min-height: 150px;
+    height: 150px;
     /* gap: 20px; */
     
     /* justify-content: space-between; */

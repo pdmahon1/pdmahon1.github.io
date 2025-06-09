@@ -1,0 +1,146 @@
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Warehouse Technician            
+        <h2>
+    </div>  
+        Peixoto Coffee<br />
+        Chandler, AZ<br />
+        Nov 2024 - Present<br />
+    <div>
+        <ul>
+            <li>Troubleshoots and repairs coffee equipment without supervision at the production facility and in the field</li>
+            <li>Coordinates daily priorities with wholesale manager while budgeting for time and physical resources</li>
+        </ul>
+    </div>    
+</div>
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Application Developer            
+        <h2>
+    </div>
+        Bayleaf Software<br />
+        Vancouver, BC<br />
+        Nov 2023 - Oct 2024<br />
+    <div>
+        <ul>
+            <li>Hired with 0 prior experience in Windows development but quickly learned new languages and frameworks such as C#, .NET, JQuery, Azure to rapidly test and deploy features for 5 clients</li>
+            <li>Delivered an on-demand reporting system for BC Wastewater Operators that consolidated multiple data sources from SQL Server and output them via client-side DataTables and as downloadable file formats</li>
+            <li>Automated the regression testing with Postman for an in-development project for BC Pathways</li>
+            <li>Mitigated unnecessary database egress charges after negotiating with DBA’s to export copies of databases for use in local development when the company would not budget for Docker training</li>
+        </ul>
+    </div>    
+</div>
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Freelance Consultant            
+        <h2>
+    </div>
+        Self Employed<br />
+        108 Mile Ranch, BC<br />	
+        Mar 2022 - Nov 2023<br />
+    <div>
+        <ul>
+            <li>Performed pro bono work as a project manager, developer, and consultant for 4 non-profit organizations</li>
+        </ul>
+    </div>    
+</div>
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Full Stack Engineer            
+        <h2>
+    </div>
+        State Farm Insurance<br />
+        Tempe, AZ<br />
+        Sep 2021 - Mar 2022<br />
+    <div>
+        <ul>
+            <li>Automated agents’ books of business reassignments with 8 Spring Boot API’s and 6 React.js applications </li>
+            <li>Integrated code quality and security detection tools within local Gradle builds and GitLab CI/CD pipelines, leading to faster detection of bugs, higher code reliability, and less technical debt</li>
+        </ul>
+    </div>    
+</div>
+
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Back End Engineer
+        <h2>
+    </div>
+        USAA<br />
+        Phoenix, AZ<br />
+        June 2019 - Sep 2021<br />
+    <div>
+        <ul>
+            <li>Implemented the foundational RESTful API ecosystem that enabled marketing technologies to analyze membership behavior and predict individual life events to 14 million unique members</li>
+            <li>Redesigned the microservice architecture to prioritize Kafka message queues for real-time data processing, reducing API response times and mitigating data staleness sent to third party consumers</li>
+            <li>Deployed Prometheus and AlertManager to message the team via Slack of API performance below SLA’s</li>
+            <li>Facilitated weekly meetings of 26 developers to promote best practices and align work with the OKRs</li>
+        </ul>
+    </div>    
+</div>
+
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Full Stack Development Intern
+        <h2>
+    </div>
+        USAA<br />
+        San Antonio, TX<br />
+        May 2018 - Aug 2018<br />
+    <div>
+        <ul>
+            <li>Converted an internal server-rendered Java tool into a single-page React.js application to increase the speed in which marketing analysts could review customer data</li>
+            <li>Led the team’s transition from legacy blue-green production deployments on Websphere to a modern DevOps environment using Gitlab CI/CD and Docker containerization</li>
+        </ul>
+    </div>    
+</div>
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Lead Teachers Assistants (TA) Coordinator            
+        <h2>
+    </div>
+        University of Arizona<br />
+        Tucson, AZ<br />
+        Aug 2016 - May 2019<br />
+    <div>
+        <ul>
+            <li>Supervised lab sessions and weekly 2-hour periods of instruction to ensure TA’s were guiding their peers effectively and to reinforce Computer Science course materials as required by instructors</li>
+            <li>Hosted weekly community meetings to prepare all TAs to assist students with understanding and troubleshooting projects written in Java, Python, and Processing languages during assigned lab periods</li>
+            <li>Trained newly hired TA’s in public speaking, giving presentations, and perform as mentors and role models</li>
+            <li>Credited with hiring the most diverse team of TA’s during the program’s 21-year history</li>
+        </ul>
+    </div>    
+</div>
+
+<div class="project project-spacer">
+    <div class="project-title">
+        <h2>
+            Crew Chief and Supervisor
+        <h2>
+    </div>
+        United States Marine Corps<br />
+        Quantico, VA<br />
+        Jun 2006 - July 2015
+    <div>
+        <ul>
+            <li>Assigned maintenance tasks to 26 junior maintainers and deconflicted maintenance across 5 work centers</li>
+            <li>Performed in-flight troubleshooting, maintained cargo security, and supported pilots during emergencies</li>
+            <li>Maintained 4 major NAVAIR work center programs, receiving 0 noted discrepancies after 2 major audits</li>
+            <li>VIP Transport Specialist with Yankee White Top Secret security clearance (TS/SCI eligible)</li>
+            <li>Awarded by Boeing and the U.S. Navy for completing over 1200 mishap-free flight hours while performing as a crew chief on CH-46, VH-3D, and MV-22 aircraft</li>
+            <li>Honorable discharge as a Sergeant</li>
+        </ul>
+    </div>    
+</div>
